@@ -2510,24 +2510,24 @@ CamShake:Stop()
     end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fiend1sh/FiendMain/refs/heads/main/LapUi')))()
-local Window = OrionLib:MakeWindow({Name = "Lap ", HidePremium = false, IntroText = "", SaveConfig = true, ConfigFolder = "Lap "})
+local Window = OrionLib:MakeWindow({Name = "Mon Hub", HidePremium = false, IntroText = "Mon Hub", SaveConfig = true, ConfigFolder = "Mon Hub"})
 
 OrionLib:MakeNotification({
-	Name = "Lap ",
-	Content = "Choose Teams Bro?",
-	Image = "rbxassetid://4483345998",
+	Name = "Mon Hub",
+	Content = "please choose team",
+	Image = "rbxassetid://113908148449757",
 	Time = 7
 })
 
 OrionLib:MakeNotification({
-	Name = "Lap ",
-	Content = "Lap  Not Skidder, Please don't says",
+	Name = "Mon Hub ",
+	Content = "Nothing",
 	Image = "rbxassetid://4483345998",
 	Time = 25
 })
 
 OrionLib:MakeNotification({
-    Name = "Lap ",
+    Name = "Mon Hub",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://4483345998",
     Time = 5
@@ -2537,85 +2537,85 @@ OrionLib:MakeNotification({
 
 local W = Window:MakeTab({
     Name = " Welcome",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local M = Window:MakeTab({
     Name = "General",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local ST = Window:MakeTab({
     Name = " Setting",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local IQ = Window:MakeTab({
     Name = " Item & Quest",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local S = Window:MakeTab({
     Name = " Stats",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local E = Window:MakeTab({
     Name = " ESP",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local RA = Window:MakeTab({
     Name = " Raid",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local LC = Window:MakeTab({
     Name = " Local Players",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local Wld = Window:MakeTab({
     Name = " World Teleport",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local SV = Window:MakeTab({
     Name = " Status Sever",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local D = Window:MakeTab({
-    Name = " Devil Fruit",
-    Icon = "rbxassetid://4483345998",
+    Name = "Fruit",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local R = Window:MakeTab({
     Name = " Race V4",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local SH = Window:MakeTab({
     Name = " Shop",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
 local C = Window:MakeTab({
     Name = " Misc",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://113908148449757",
     PremiumOnly = false
 })
 
@@ -2625,7 +2625,7 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Script By DK")
+W:AddLabel("Script By ")
 
 local Section = W:AddSection({
     Name = "Update"
@@ -2729,7 +2729,7 @@ local locallv = W:AddLabel("Level")
         Name = "Status Hack"
     })
     
-    local LevelFarmFarm W:AddLabel("Kaitun : Đell có(sắp có)")
+    local LevelFarmFarm W:AddLabel("Kaitun : Not available ")
     W:AddLabel("Config Save : Comming Son...")
     local Farmfast = W:AddLabel("Farm Fast : ❌")
     local Bypass = W:AddLabel("Bypass ❌")
